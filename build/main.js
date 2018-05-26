@@ -156,7 +156,7 @@ var HomePage = /** @class */ (function () {
         this.modal.create(__WEBPACK_IMPORTED_MODULE_4__components_add_info_add_info__["a" /* AddInfoComponent */], { title: "修改" + item.type_name, type: item.type, mode: 1, one: item.one, two: item.two, three: item.three, four: item.four, uid: item.uid }).present(); //mode 0添加 1修改
     };
     HomePage.prototype.deleteItem = function (item) {
-        var ebPay = new __WEBPACK_IMPORTED_MODULE_3_nebpay___default.a();
+        var nebPay = new __WEBPACK_IMPORTED_MODULE_3_nebpay___default.a();
         var value = "0";
         var callFunction = "delete";
         var arr = [];
